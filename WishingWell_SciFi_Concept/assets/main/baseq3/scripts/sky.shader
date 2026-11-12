@@ -1,0 +1,15 @@
+textures/sky/sky
+{
+	q3map_sunExt 0.4 0.4 0.4 1 360 800 3 16 // r g b intensity degrees elevation deviance samples
+	q3map_lightmapFilterRadius 0 8 // get rid of stadium lights
+	q3map_skylight 15 2 // brightness plus iterations for uniform lighting
+	
+	surfaceparm sky
+	surfaceparm noimpact
+	surfaceparm nolightmap
+	surfaceparm nodlight
+	surfaceparm nonsolid
+	
+	nopicmip
+	nomipmaps
+}
